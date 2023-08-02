@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,500;1,200;1,700&display=swap"
+        rel="stylesheet">
+    <title>Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            color: rgb(121, 12, 12);
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+            margin: 0;
+            background-image: url('http://picsum.photos/id/244/1024/800');
+        }
+
+        .head {
+            text-align: right;
+            font-size: 10px;
+            position: relative;
+            top: 10px;
+            right: 20px;
+
+        }
+
+        .page {
+            border: dashed 1px red;
+            flex-grow: 1;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            color: #043912;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .content {
+            /* position: relative;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            text-align: center  */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .box1 {
+            border: solid 1px rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            width: 280px;
+            height: 10px;
+
+        }
+
+        .box2 {
+            border: solid 1px brown;
+            background-color: brown;
+            width: 180px;
+            height: 10px;
+            position: relative;
+            top: -10px;
+
+        }
+
+        .c2 {
+            display: flex;
+            font-size: 15px;
+        }
+
+        .c3 {
+            display: flex;
+            font-size: 15px;
+        }
+
+        .t1 {
+            position: relative;
+            right: 120px;
+        }
+
+        .t2 {
+            position: relative;
+            left: 120px;
+        }
+
+        buttom {
+            font-size: 10px;
+        }
+
+        .c5 {
+            gap: 8px;
+            display: flex
+        }
+
+        .under {
+            position: relative;
+            bottom: 10px;
+            text-align: center;
+        }
+
+        .h6 {
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="head">
+            <a href="#">HOME</a>
+        </div><br>
+
+        <div class="content">
+            <div class="c1">
+                <h1>UNDER <br>
+                    CONSTRUCTION</h1>
+            </div><br>
+            <div class="c2">
+                <h4>SITE NEARLY READY</h4>
+            </div>
+            <div class="box">
+                <div class="box1"></div>
+                <div class="box2"></div>
+            </div>
+            <div class="c3">
+                <div class="t1">
+                    <h5>0%</h5>
+                </div>
+                <div class="t2">
+                    <h5>100%</h5>
+                </div><br>
+            </div>
+            <div class="c4">
+                <button>Notify
+                    Me!</button>
+            </div><br>
+            <div class="c5">
+                <img src="./pic/facebook.png" alt="fb" style=" width: 20px;height: 20px;width: 100%; margin: 5px;">
+                <img src="./pic/twitter.png" alt="twt" style=" width: 20px;height: 20px;width: 100%; margin: 5px;">
+                <img src="./pic/linkedin.png" alt="lin" style=" width: 20px;height: 20px;width: 100%; margin: 5px;">
+                <img src="./pic/mail.png" alt="mail" style=" width: 20px;height: 20px;width: 100%; margin: 5px;">
+            </div><br><br><br>
+        </div>
+        <div class="under" style=" font-size: 12px;">
+            <hr>
+            <h6>@2023 by Under Construction</h6>
+        </div>
+    </main>
+</body>
+
+</html>
